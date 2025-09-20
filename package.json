@@ -1,7 +1,6 @@
 {
   "name": "miniproject",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +13,15 @@
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Param895/miniproject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Param895/miniproject/issues"
+  },
+  "homepage": "https://github.com/Param895/miniproject#readme",
+  "description": ""
 }
