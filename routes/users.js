@@ -4,7 +4,7 @@ const rootdir = require('../util/path');
 
 const router = express.Router();
 
-router.get('/',(req, res)=>{
+router.get('/users',(req, res)=>{
     res.sendFile(path.join(rootdir,"views","user.html"));
 })
 

@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname,"public")));
 
 app.get("/course", courseRoute);
-app.get("/user", userRoute);
+app.get("/users", userRoute);
 
 app.get("/",(req, res)=>{
     res.sendFile(path.join(__dirname,"views","index.html"));
