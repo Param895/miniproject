@@ -13,7 +13,7 @@ router.get("/addcourse",(req, res)=>{
     res.sendFile(path.join(rootdir, "views", "addcourse.html"));
 })
 
-router.post('/course',(req, res)=>{
+router.post('/addcourse',(req, res)=>{
     console.log("New course added",req.body);
     res.redirect("/course");
 })

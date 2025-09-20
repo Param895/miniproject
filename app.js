@@ -11,8 +11,8 @@ const PORT = 3000;
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname,"public")));
 
-app.get("/course", courseRoute);
-app.get("/users", userRoute);
+app.use("/course", courseRoute);
+app.use("/users", userRoute);
 
 app.get("/",(req, res)=>{
     res.sendFile(path.join(__dirname,"views","index.html"));

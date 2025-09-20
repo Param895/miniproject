@@ -4,8 +4,12 @@ const rootdir = require('../util/path');
 
 const router = express.Router();
 
-router.get('/users',(req, res)=>{
+router.get('/',(req, res)=>{
     res.sendFile(path.join(rootdir,"views","user.html"));
+});
+
+router.get('/adduser',(req, res)=>{
+    res.sendFile(path.join(rootdir,"views","adduser.html"));
 })
 
 router.post('/adduser',(req, res)=>{
