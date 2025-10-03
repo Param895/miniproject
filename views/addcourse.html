@@ -8,17 +8,18 @@
 </head>
 <body>
     <header>
-        <h1>Anime Ki Duniya</h1>
+        <h1>Welcome to My Website</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Courses</a>
-            <a href="#">About</a>   
-            <a href="#">Contact</a>
+            <a href="/">Home</a>
+            <a href="/users">Useres</a>
+            <a href="/course">Anime</a>
+            <a href="/users/adduser">Add User</a>
+            <a href="/course/addcourse">Add Anime </a>
         </nav>
     </header>
     <h2> Welcome to the world of anime </h2>
-    <p>write here to add anime information</p>
-    <form action="/course/addcourse" method="POST">
+    <p  class="center">write here to add anime information</p>
+    <form action="/course/addcourse" method="POST" class="center">
         <input type="text" name="addanime" placeholder="add anime">
         <button type="submit">Add Anime</button>
     </form>
